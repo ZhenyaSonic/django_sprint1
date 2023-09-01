@@ -4,21 +4,21 @@
 {% endblock %}
 {% block content %}
 <div class="container py-5">
-    <article>
-      <ul>
-        <li>
+  <article>
+    <ul>
+      <li>
           Место: {{ post.location }}            
-        </li>
-        <li>
+      </li>
+      <li>
           Дата: {{ post.date }}
-        </li>
-        <li>
+      </li>
+      <li>
           Категория: <a href="not-my-day">not-my-day</a>
-        </li>
-      </ul>         
+      </li>
+    </ul>         
       <p>
         {{post.text|linebreaksbr}}
       </p>          
-    </article>                
-  </div>
+  </article>                
+</div>
 {% endblock %}
